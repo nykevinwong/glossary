@@ -1,0 +1,407 @@
+Window Application Programming Glossary
+
+accessibility
+The process of making an application more readily available to users who have disabilities that interfere with their use of computer hardware or software.
+
+accessor
+The code that is enclosed in a get and set block in a property definition. The get accessor is executed when the property value is read, and the set accessor is used when a value is assigned to the property. A property can contain a get accessor, a set accessor, or both.
+ad hoc query
+A set of SQL statements that are executed immediately.
+
+Application
+A class that provides a set of static methods and properties for managing an application.
+
+assembly
+A logical unit of functionality that can contain one or more files. Every type that is loaded in the CLR belongs to an assembly.
+
+assembly manifest
+A file that stores the assembly's metadata.
+
+assembly metadata
+Information that provides the assembly's self-describing information, such as the name of the assembly, the version of the assembly, the files that are part of the assembly and their hash values, and the assemblies' dependencies on other assemblies. This subset of information in the manifest makes assemblies self-sufficient.
+
+attribute
+A declarative tag that can be placed with certain code elements to provide additional information on the corresponding code element at runtime.
+
+authentication
+The process of determining the identity of a user based on his or her credentials.
+
+authorization
+The process of allowing a user to use specific resources based on his or her authenticated identity.
+
+backing store
+A place where you can store a file.
+
+boxing
+The process of converting a value type to a reference type in which the value in the stack is copied into the heap via the creation of a new instance of an object to hold its data.
+
+C
+CDATA section
+Raw data within an XML file.
+
+class
+A reference type that encapsulates its data (constants and fields) and behaviors (methods, properties, indexers, events, operators, instance constructors, static constructors, and destructors).
+
+Clipboard
+A mechanism by which you can transfer data between and within various Windows applications.
+
+CLR (Common Language Runtime)
+A program that executes all managed code and provides code with various services at runtime, such as automatic memory management, cross-language integration, code access security, and debugging and profiling support.
+
+code access security
+Security that is based on permission requests made by running code.
+
+code group
+A group of zero or more modules that share a common security policy.
+
+column
+All the values for one particular property in a table.
+
+complex data binding
+The process of connecting a user interface control to an entire collection of data rather than to a single data item.
+
+component
+A package of reusable code that implements the IComponent interface.
+
+configured assembly
+An assembly for which you have specified a runtime version substitution.
+
+constructor
+A method that allows control over initialization of a type. A constructor is executed when an instance of a type is created.
+
+context menu
+A menu that displays a small list of menu items that depend on the current working context. A context menu is associated with a control and is shown when the user right-clicks the control.
+
+culture
+A combination of language and location that is sufficient to dictate the formatting of resources.
+
+culture code
+An abbreviation that identifies a particular culture.
+
+custom control
+A control that is created by being derived directly or indirectly from the System.WindowsForms.Control class. A custom control renders its own user interface via its Paint event handler.
+
+D
+data binding
+The process of connecting the controls on the user interface with the data stored in the data model.
+
+data provider
+The server-specific ADO.NET classes that supply data.
+
+DataSet object
+A server-independent store that can hold multiple tables and their relationships.
+
+debugging
+The process of locating logical or runtime errors in an application. Debugging involves finding the causes of the errors and fixing them.
+
+declarative security
+Security that is based on attributes that declare the desired permissions.
+
+delay signing
+A technique that allows you to place a shared assembly in the GAC just by signing the assembly with the public key. This allows the assembly to be signed with the private key at a later stage, when the development process is complete and the component or assembly is ready to be deployed. This process allows developers to work with shared assemblies as if they were strongly named and yet also secure the private key of the signature from being accessed at different stages of development.
+
+delegate
+A reference type that stores references to a method that has a specific signature. A delegate object can be used to dynamically invoke a method at runtime.
+
+deployment
+A process by which a Windows application or component is distributed in the form of installation package files to be installed on the other computers.
+
+Disco
+A Microsoft standard for Web service discovery.
+
+DOM (Document Object Model)
+The DOM class is an in-memory representation of an XML document that allows you to programmatically read, manipulate, and modify an XML document.
+
+E
+element
+An XML tag and its contents.
+
+encoding
+A scheme for representing textual characters as numeric codes.
+
+enumeration
+A distinct type that has named constants. Enumeration types are defined by using the enum keyword. Enumeration types provide a type-safe way to work with constants.
+
+event
+A message that is sent by an object to signal an action. The action can be a result of user interaction, such as a mouse click, or it can be triggered by any other program.
+
+event handling
+The act of responding to an event handling can be accomplished by writing methods called event handlers that are invoked in response to events.
+
+exception
+A problem that occurs during the normal execution of a program.
+
+exception handling
+The process of handling exceptions that are raised when a program executes.
+
+F
+FCL (Framework Class Library)
+A library of classes, interfaces, and value types that are included in the Microsoft .NET Framework. This library provides access to the system functionality and is designed to be the foundation on which the .NET Framework applications, components, and controls are built.
+
+Field
+A variable that is associated with an object or a class.
+
+foreign key
+An identifier in a database table that stores values from the primary key in another table. These values indicate to which row in the primary table each row in the other table is related.
+
+G-H
+GAC (global assembly cache)
+A code cache of assemblies that are supposed to be shared by many applications in a computer.
+
+garbage collection
+A process of reclaiming all unused memory and returning it to the heap of available memory. The CLR garbage collector may be invoked when an application gets low on memory resources. The CLR also compacts the memory that is in use to reduce the working space needed for the heap.
+
+GDI+
+A modern implementation of the Windows Graphics Device Interface that allows you to create graphics, draw text, and manipulate graphical images.
+
+globalization
+The process of identifying the resources to be localized in a particular application.
+
+HTML Help
+Microsoft's online Help authoring system that creates help for software programs, multimedia titles, intranets, extranets, or the Internet.
+
+I-J-K
+identity
+A column whose value is automatically assigned by the server when a new row is entered.
+
+IL (intermediate language)
+The language into which compilers that support the .NET Framework compile a program. IL has been ratified as an ECMA standard that calls IL common intermediate language (CIL). The Microsoft implementation of CIL is called Microsoft IL (MSIL).
+
+imperative security
+Security that is based on instantiated classes.
+
+inheritance
+A process through which you create a new type based on an existing type. In an inheritance relationship, the existing type is called the base type and the new type is called the derived type. When you use inheritance, the derived type automatically gets all the functionality of the base type—without any extra coding.
+
+input validation
+A process by which an application examines user input to determine whether it is acceptable for the application.
+
+JIT (just-in-time) compilation
+The process of converting IL code into machine code at runtime, just when it is required.
+
+L-M
+“last one wins” concurrency control
+A situation in which an update to a row always succeeds, whether another user has edited the row or not (as long as the row still exists).
+
+localizability
+The process of verifying that all localizable resources have been separated from code.
+
+localization
+The process of translating resources for another culture.
+
+main menu
+A menu that is used to group together various commands that are available in a Windows application. The main menu is displayed at the top of a form, just below the title bar, and it has several top-level menus. Each top-level menu can further have a hierarchy of menu items within itself. A Windows application can have just one main menu. In the case of an MDI application that consists of multiple forms, the menus of the child windows are merged together in the MDI container's main menu.
+
+managed code
+The code that runs under the services provided by the CLR. Managed code must expose necessary metadata information to the CLR in order to enjoy these services.
+
+See also [CLR]
+MDI (multiple-document interface) application
+An application that allows you to display and work with multiple documents at the same time. Each document is displayed in its own child window. You can recognize an MDI application by the inclusion of a Window menu that contains commands for switching among windows or documents. Common examples of MDI applications are Visual Studio .NET and Microsoft Excel.
+
+merge module
+A type of project that allows you to create reusable setup components that help in deploying shared components. Merge modules cannot be directly installed; instead, they must be merged with installers of applications that use the shared component packaged as a merge module.
+
+metadata
+Information about elements such as assemblies, types, and methods that helps the CLR manage garbage collection, object lifetime management, code access security, debugging, and so on for these elements.
+
+N-O
+namespace
+A naming scheme that provides a way to logically group related types. Namespaces have two benefits: They are used to avoid naming conflicts and they make it easier to browse and locate classes.
+
+native compilation
+The process of precompiling assemblies in processor-specific machine code.
+
+Native compilation can be done with the help of the Native Image Generation tool (ngen.exe).
+
+native image cache
+A cache that contains precompiled assemblies.
+
+.NET Framework
+A platform for building, deploying, and running XML Web services and applications. The .NET Framework consists of three main parts: the CLR, the FCLs, and a set of language compilers.
+
+one-way data binding
+A process in which the bound property of the control reflects changes to the data model, but changes to the control are not written back to the data model.
+
+optimistic concurrency control
+A situtation in which an update to a row succeeds only if no one else has changed that row after it is loaded into the DataSet object.
+
+osql
+A SQL Server command-line tool for executing queries.
+
+P-Q
+parameter
+A piece of information that is passed to a stored procedure at runtime.
+
+performance counter
+A Windows device that publishes performance-related data for applications and their components.
+
+permission
+A setting in .NET that controls access to a resource.
+
+permission set
+A set of one or more permissions that can be granted or denied as a unit.
+
+PInvoke (platform invoke)
+The feature of the .NET Framework that allows you to call the Windows API and other DLL procedures from managed code.
+
+pop-up help
+Help that is displayed in a pop-up window after the user has clicked the Help button on the form's caption followed by clicking on a control.
+
+primary key
+The unique identifier for a row in a database table.
+
+PrintDocument
+A class that provides object-oriented access to all the features you need to print, either text or graphics.
+
+private assembly
+An assembly that is available only to clients in the same directory structure as the assembly.
+
+process
+An application that is being executed.
+
+property
+A class member that is like a public field but that can also encapsulate additional logic within its get and set accessor methods.
+
+R
+RCW (runtime callable wrapper)
+A proxy that allows .NET code to make use of COM classes and members.
+
+relational database
+A database that stores multiple tables and the relationships between them.
+
+relationship
+A connection between two tables in a database.
+
+resource file
+A file that contains string, bitmap, or other resources that can differ between cultures.
+
+resource-only assembly
+An assembly that contains only resources and no executable code.
+
+resultset
+A collection of data that is arranged in rows and columns.
+
+role-based security
+Security that is based on the identity of the current user.
+
+row
+All the values in a table that describe one instance of an entity.
+
+S
+satellite assembly
+A resource-only assembly that contains culture-specific information.
+
+schema
+The structure of a database or an XML file.
+
+SDI (single-document interface) application
+An application that allows you to work on a single document or form at a time. Common examples of SDI applications are the Windows Notepad and Wordpad applications.
+
+shared assembly
+An assembly that can be referenced by more than one application. An assembly must be explicitly built to be shared; it must have a cryptographically strong name. Shared assemblies are stored in the machinewide GAC.
+
+simple data binding
+The process of connecting a single value from the data model to a single property of a control.
+
+SOAP (Simple Object Access Protocol)
+A standard for transmitting objects as XML over HTTP.
+
+SQL-92 (Structured Query Language-92)
+The official ANSI specification for SQL.
+
+SQL Query Analyzer
+A SQL Server graphical tool for executing queries.
+
+stored procedure
+A set of SQL statements that are stored on the server for later execution.
+
+stream
+A file that is viewed as a stream of bytes.
+
+strong name
+A name that identifies an assembly globally. It consists of a simple text name, a version number, culture information (if provided), and a public key and is optionally signed using a digital signature. If the assembly contains more than one file, it is sufficient to generate a strong name just for the file that contains the assembly manifest.
+
+structure
+User-defined value type. Like a class, a structure has constructors, fields, methods, properties, and so on. However, structures do not support inheritance.
+
+T
+T-SQL (Transact Structured Query Language)
+The SQL-92 dialect that is used in Microsoft SQL Server.
+
+tab order
+The order in which controls receive focus when users navigate on a form by using the Tab key.
+
+table
+A collection of data about instances of a single entity.
+
+testing
+The process of executing programs and determining whether they worked as expected. Testing is the process of revealing errors by executing programs with various test cases and test data.
+
+ToolTip
+A small pop-up window that displays a brief description of a control's purpose when the mouse hovers over the control.
+
+tracing
+The process of displaying informative messages in an application at the time of execution. Tracing messages can be helpful for checking the health of a program or finding errors even though the program is already in production.
+
+two-way data binding
+A process in which changes to the control are written back to the data model.
+
+U-V
+UDDI (Universal Description, Discovery, and Integration)
+A standard for discovering details of Web services and other business services that are available via the Internet.
+
+unboxing
+The process of converting a reference type to a value type in which the value from the heap is copied back into the stack.
+
+Unicode
+A universal character set that can represent more than 1 million characters. Unicode is the default internal language of the .NET Framework.
+
+unmanaged code
+Code written in a non-.NET environment that does not benefit from the services of the CLR.
+
+URL remoting
+The process of launching an application from a remote location.
+
+user assistance
+Any means of providing information about an application to the user.
+
+user control
+A control that is created by being derived directly or indirectly from the System.WindowsForms.UserControl class.
+
+UTF-16
+A 16-bit Unicode encoding format in which every character is encoded using 2 bytes.
+
+visual inheritance
+A process through which a visual element such as a form or a control is inherited based on an element that already exists. Visual inheritance helps reuse existing code and maintain consistency among visual elements.
+
+W-X-Y-Z
+Web method
+A method of a Web service that can be invoked by client applications.
+
+Web reference
+Information in a Visual Studio .NET project that allows you to use objects that are supplied by a Web service.
+
+Web service
+A service that allows you to instantiate and invoke methods on objects over the Internet.
+
+Windows Forms Designer
+The rich visual environment provided by Visual Studio .NET that allows you to create Windows-based applications.
+
+WSDL (Web Services Description Language)
+An XML language that describes the interface of a Web service.
+
+XML (Extensible Markup Language)
+A text-based format that lets developers describe, deliver, and exchange structured data between a range of applications.
+
+XML attribute
+A property of an XML object.
+
+XML declaration
+The line in an XML file that identifies the file as an XML file.
+
+XML namespace
+A set of XML tags that is private to an application.
+
+z-order
+The order in which the controls are visually layered on a form along the form's z-axis, which specifies its depth. A control at the top of the z-order overlaps other controls, and other controls overlap a control that is at the bottom of the z-order.
