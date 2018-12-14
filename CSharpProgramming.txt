@@ -1,0 +1,242 @@
+C# Programming Glossary
+
+abstract
+A class modifier that specifies that the class must be derived from to be instantiated.
+
+ListGlossTerm
+A binary operator type that casts the left operand to the type specified by the right operand and that returns nullrather than throwing an exception if the cast fails.
+
+base
+A variable with the same meaning as this, except it accesses a base class implementation of a member.
+
+bool
+A logical datatype that can be true or false.
+
+break
+A jump statement that exits a loop or switch statement block.
+
+byte
+A one-byte unsigned integral datatype.
+
+case
+A selection statement that defines a particular choice in a switch statement.
+
+catch
+The part of a try statement that catches exceptions of a specific type defined in the catch clause.
+
+char
+A two-byte Unicode character datatype.
+
+checked
+A statement or operator that enforces arithmetic bounds checking on an expression or statement block.
+
+class
+An extendable reference type that combines data and functionality into one unit.
+
+const
+A modifier for a local variable or field declaration that indicates the value is a constant. A const is evaluated at compile time and can only be a predefined type.
+
+continue
+A jump statement that skips the remaining statements in a statement block and continues to the next iteration in a loop.
+
+decimal
+A 16-byte precise decimal datatype.
+
+default
+A marker in a switch statement specifying the action to take when no case statements match the switchexpression.
+
+delegate
+A type for defining a method signature so that delegate instances can hold and invoke a method or list of methods that match its signature.
+
+do
+A loop statement to iterate a statement block until an expression at the end of the loop evaluates tofalse.
+
+double
+An eight-byte floating-point datatype.
+
+else
+A conditional statement that defines the action to take when a precedingif expression evaluates to false.
+
+enum
+A value type that defines a group of named numeric constants.
+
+event
+A member modifier for a delegate field or property that indicates only the += and -= methods of the delegate can be accessed.
+
+explicit
+An operator that defines an explicit conversion.
+
+extern
+A method modifier that indicates the method is implemented with unmanaged code.
+
+false
+A Boolean literal.
+
+finally
+The part of atry statement that is always executed when control leaves the scope of thetry block.
+
+fixed
+A statement to pin down a reference type so that the garbage collector won’t move it during pointer arithmetic operations.
+
+float
+A four-byte floating-point datatype.
+
+for
+A loop statement that combines an initialization statement, stopping condition, and iterative statement into one statement.
+
+foreach
+A loop statement that iterates over collections that implement IEnumerable.
+
+get
+The name of the accessor that returns the value of a property.
+
+goto
+A jump statement that jumps to a label within the same method and same scope as the jump point.
+
+if
+A conditional statement that executes its statement block if its expression evaluates totrue.
+
+implicit
+An operator that defines an implicit conversion.
+
+in
+The operator between a type and an IEnumerable in a foreachstatement.
+
+int
+A four-byte signed integral datatype.
+
+interface
+A contract that specifies the members aclass or structcan implement to receive generic services for that type.
+
+internal
+An access modifier that indicates a type or type member is accessible only to other types in the same assembly.
+
+is
+A relational operator that evaluates to true if the left operand’s type matches, is derived from, or implements the type specified by the right operand.
+
+lock
+A statement that acquires a lock on a reference-type object to help multiple threads cooperate.
+
+long
+An eight-byte signed integral datatype.
+
+namespace
+Maps a set of types to a common name.
+
+new
+An operator that calls a constructor on a type, allocating a new object on the heap if the type is a reference type, or initializing the object if the type is a value type. The keyword is overloaded to hide an inherited member.
+
+null
+A reference-type literal that indicates no object is referenced.
+
+object
+The type all other types derive from.
+
+operator
+A method modifier that overloads operators.
+
+out
+A parameter modifier that specifies the parameter is passed by reference and must be assigned by the method being called.
+
+override
+A method modifier that indicates that a method of a class overrides a virtualmethod of a class orinterface.
+
+params
+A parameter modifier that specifies that the last parameter of a method can accept multiple parameters of the same type.
+
+private
+An access modifier that indicates that only the containing type can access the member.
+
+protected
+An access modifier that indicates that only the containing type or derived types can access the member.
+
+public
+An access modifier that indicates that a type or type member is accessible to all other types.
+
+readonly
+A field modifier specifying that a field can be assigned only once, in either its declaration or its containing type’s constructor.
+
+ref
+A parameter modifier that specifies that the parameter is passed by reference and is assigned before being passed to the method.
+
+return
+A jump statement that exits a method, specifying a return value when the method is nonvoid.
+
+sbyte
+A one-byte signed integral datatype.
+
+sealed
+A class modifier that indicates a class cannot be derived from.
+
+set
+The name of the accessor that sets the value of a property.
+
+short
+A two-byte signed integral datatype.
+
+sizeof
+An operator that returns the size in bytes of a struct.
+
+stackalloc
+An operator that returns a pointer to a specified number of value types allocated on the stack.
+
+static
+A type member modifier that indicates that the member applies to the type rather than an instance of the type.
+
+string
+A predefined reference type that represents an immutable sequence of Unicode characters.
+
+struct
+A value type that combines data and functionality in one unit.
+
+switch
+A selection statement that allows a selection of choices to be made based on the value of a predefined type.
+
+this
+A variable that references the current instance of a classor struct.
+
+throw
+A jump statement that throws an exception when an abnormal condition has occurred.
+
+true
+A Boolean literal.
+
+try
+A statement that provides a way to handle an exception or a premature exit in a statement block.
+
+typeof
+An operator that returns the type of an object as a System.Type object.
+
+uint
+A four-byte unsigned integral datatype.
+
+ulong
+An eight-byte unsigned integral datatype.
+
+unchecked
+A statement or operator that prevents arithmetic bounds from checking on an expression.
+
+unsafe
+A method modifier or statement that permits pointer arithmetic to be performed within a particular block.
+
+ushort
+A two-byte unsigned integral datatype.
+
+using
+Specifies that types in a particular namespace can be referred to without requiring their fully qualified type names. The using statement defines a scope. At the end of the scope, the object is disposed.
+
+value
+The name of the implicit variable set by the set accessor of a property.
+
+virtual
+A class method modifier that indicates that a method can be overridden by a derived class.
+
+void
+A keyword used in place of a type for methods that don’t have a return value.
+
+volatile
+Indicates that a field may be modified by the operating system or another thread.
+
+while
+A loop statement to iterate a statement block until an expression at the start of each iteration evaluates to false.
+
