@@ -1,0 +1,701 @@
+win-baed application programmming glossary
+
+access control
+The process of restricting access to functionality based on role or assigned permissions.
+
+accessibility
+Coding that makes your application usable by those with disabling conditions.
+
+ActiveX controls
+Components developed using earlier Microsoft development languages such as Visual Basic and Visual C++, designed to run in the Web browser and in desktop applications.
+
+ad-hoc query
+An SQL query that is executed immediately.
+
+ADO.NET
+A set of classes, which are part of the .NET Framework, for integrating .NET applications and Web services with relational databases and other data sources.
+
+Anchor property
+A control property used to link the control to a position on its form.
+
+Application class
+A class that provides static methods and properties for managing an application.
+
+assembly
+A logical grouping of files sharing a single Assembly Manifest.
+
+Assembly Manifest
+File that includes the metadata for an assembly.
+
+Authenticode
+A type of digital signature supported by a third-party certificate authority (CA) such as VeriSign or Thawte.
+
+Autos
+One of the program state windows used during debugging to provide information on the variables within the current and previous statements.
+
+aximp.exe
+The Windows Forms ActiveX Control Importer (aximp.exe), a command-line utility that can be used to encapsulate ActiveX components within objects of the AxHost wrapper class.
+
+backing store
+A place where you can store a file.
+
+BeginPrint event
+Occurs before the first page of a print job is printed by invoking the Print method of the PrintDocument.
+
+BinaryReader class
+A class from the System.IO namespace that reads primitive data types as binary values, using a specified encoding.
+
+BinaryWriter class
+A class within the System.IO namespace that allows writing the primitive data types to the output stream in binary format.
+
+bootstrapper
+An element that can be used to preinstall the Windows Installer utility before installing a deployed .msi package.
+
+bottom-up testing
+A testing approach that begins testing at the unit level and then tests increasing levels of integration.
+
+breakpoint
+Causes code execution to pause when encountered.
+
+Brush class
+A class used with the Fill methods of the Graphics class to specify the pattern or color used to fill the shapes.
+
+CAB (cabinet files)
+A redistributable file that can be used to deploy an application. An application can be broken into several cabinet files to limit the maximum size per file, allowing distribution using small-capacity media such as floppy disks.
+
+Call Stack window
+One of the program state windows used during debugging to display the path through which program execution reached the current point within the code.
+
+catch block
+Block used to provide error-handling capability over the defined region of code within a try block. catch blocks are evaluated until a matching condition is reached. Unhandled exceptions fire an UnhandledException event.
+
+CausesValidation property
+When set to false, this property allows a control to act without firing the Validating and Validated event of the control that currently has focus, so that user assistance controls can act to provide information without requiring the user to leave the control that currently has the focus.
+
+character encodings
+A set of characters and their associated numerical values.
+
+CheckBox control
+A control that allows basic selection of on/off (two-state) or on/off/indeterminate (three-state) status.
+
+CheckedListBox control
+An extension of the ListBox and CheckBox controls, allowing selection to be performed using check boxes for each item.
+
+class
+A construct that has associated attributes and methods.
+
+CloseMainWindow method
+Method that can be used with applications that have a user interface, equivalent to clicking the Close button.
+
+code group
+A set of assemblies that share a security context.
+
+code-access security
+Manages the security of .NET source code itself, ensuring that permissions are verified before the code executes. Code-access security involves permissions for code group access.
+
+ColorDialog dialog box
+A dialog box that displays a list of colors and returns a property containing the selected color.
+
+COM/COM+ components
+Technologies used in earlier Microsoft development languages to allow components to communicate with one another.
+
+ComboBox control
+A control that allows selection of a single value from a provided list, as well as the input of a new value, if allowed.
+
+Common Language Runtime (CLR)
+
+See [CLR]
+complex data binding
+The process of connecting a user interface control to an entire collection of data rather than to a single data item. For example, binding a DataGrid or ListBox object with a DataTable object.
+
+component
+An object that encapsulates both data and code, and provides a well-specified set of publicly available services.
+
+container
+Can contain other objects, such as controls or components.
+
+control
+A reusable object that provides visual interface. Each type of control has its own set of properties, methods, and events that make it suitable for a particular purpose.
+
+CreateEventSource method
+Method that creates an event source for an application, creating the log if it does not yet exist.
+
+CLR (Common Language Runtime)
+A program that executes all managed code and provides code with various services at runtime, such as automatic memory management, cross-language integration, code access security, and debugging and profiling support.
+
+culture
+Specifies local settings, including language, alphabet, sort order, direction of information presentation, and other locale-specific details.
+
+CultureInfo class
+Class that provides various items of information about a particular culture.
+
+CurrentCulture property
+Property that dictates the format used for dates, times, currency, numbers, and string comparison and casing rules.
+
+CurrentUICulture property
+Property that specifies the culture to use when selecting resources for the user interface.
+
+Custom Actions Editor
+A deployment editor used to run DLL, EXE, assemblies, or script files that will be called during the install, commit, rollback, or uninstall phases of package installation.
+
+data binding
+The creation of a link between the data model and the user interface.
+
+Data Form Wizard
+A utility within Visual Studio .NET that is used to automate many data-binding tasks.
+
+data provider
+An object used to access and manage data stored within DataSet objects.
+
+DataAdapter
+A two-way transfer conduit between data provider and DataSet objects.
+
+DataColumn
+A single element (field) of data values within a DataTable.
+
+DataReader
+A read-only conduit through which a result set can be rapidly read, but which is accessible only in sequence from first to last.
+
+DataRelation
+A relationship object in a DataSet object that represents a relationship between the key values stored in two DataTable objects.
+
+DataRow
+A single line (record) of data within a DataTable.
+
+DataSet
+A server-independent store that can hold multiple tables and their relationships.
+
+DataTable object
+An ADO.NET object that represents one table of in-memory data.
+
+DataView
+A filtered view of data derived from one or more related DataTable objects within a DataSet object.
+
+DateTimePicker control
+A control that allows selection of date and time values using a variety of formats.
+
+Debug mode
+The default compilation mode when using Visual Studio .NET. This mode includes both the TRACE and DEBUG symbol sets.
+
+DEBUG symbol
+One of the symbol sets used to instrument a program for tracing, included only when an application is compiled in Debug mode.
+
+delay signing
+A process used during application testing in which a strong name is created by signing the assembly using the public key rather than the private key (which is later used for final signing before distribution).
+
+delegate
+A reference type that stores references to a method that has a specific signature. A delegate object can be used to dynamically invoke a method at runtime.
+
+DELETE statement
+The T-SQL statement used to delete one or more records from a table within a database.
+
+dialog boxes
+Boxes used to prompt user input within an application. Default dialog boxes include the ColorDialog, FontDialog, OpenFileDialog, PageSetupDialog, PrintDialog, PrintPreviewDialog, and SaveFileDialog dialog boxes.
+
+disco.exe
+The Web Services Discovery tool (disco.exe), a command-line tool used to discover a Web service.
+
+Disco
+A Microsoft standard for the creation of Web Service discovery documentation that contains paths and URLs for the documentation and WSDL file describing the service.
+
+Dock property
+Specifies the edge of the parent container to which a control is docked.
+
+DomainUpDown control
+A control that returns a string value selected from an indexed list of values, navigated using up and down buttons on the control.
+
+Draw method
+A method that can be used to draw graphics on a form.
+
+dynamic properties
+Properties managed at runtime by the System.Configuration.AppSettingsReader class.
+
+element
+A single data value within a record, also called a field.
+
+EndPrint event
+Event that fires once after the last page of the job has printed.
+
+ErrorProvider component
+Component that allows the display of a small icon that provides a mouseover ToolTip detailing avalidation error's details.
+
+event handler
+A method that executes in response to an event.
+
+event handling
+The act of responding to an event by executing event handlers.
+
+See also [event handler]
+EventLog class
+Class that provides the capability to read from or write to a Windows event log.
+
+exception
+An unexpected problem that occurs during the normal execution of a program such as a missing file, invalid data, or operations. Exceptions must be handled in an application's code to prevent the application's default behavior, which is termination.
+
+Extensible Markup Language (XML)
+
+See [XML]
+FCL (Framework Class Library)
+A library of classes, interfaces, and value types that are included in the Microsoft .NET Framework. This library provides access to the system functionality and is designed to be the foundation on which the .NET Framework applications, components, and controls are built.
+
+field
+A single data value within a record, also called an element.
+
+File System Editor
+A deployment editor used to customize the system configuration that will be used during package installation.
+
+File Types Editor
+A deployment editor used to specify file type associations that will be created during installation.
+
+FileStream class
+A class within the System.IO namespace that treats data as a stream of bytes.
+
+filtering
+The presentation of only a useful or target subset of data from the data model.
+
+finally block
+Block used in conjunction with try block of code. It executes whether or not an exception is raised.
+
+FontDialog dialog box
+A dialog box that enables the user to select a font and its properties.
+
+Form class
+A container class within the System.Windows.Forms namespace that can be used to create an application that provides a visual user interface.
+
+Framework Class Library
+The shared class library that allows code developed using .NET languages to inherit class types transparently.
+
+Global Assembly Cache
+A code cache of assemblies that are supposed to be shared by multiple applications in a computer.
+
+globalization
+The phase in the localization process in which all localizable resources are identified separately from the fixed-code portions of an application.
+
+GroupBox control
+A container control that includes a caption.
+
+HelpProvider component
+A component that can be used to link an application with its HTML Help files or pop-up help text.
+
+high-contrast mode
+Mode used to support users who have visually disabling conditions who require a greater level of contrast than the normal Windows default settings.
+
+HScrollBar control
+A control that provides horizontal scrolling capability.
+
+HTML Help
+Multipaned HTML Help files that can be cross-linked using hyperlinks. This is the standard Windows form of help file.
+
+IDE (integrated development environment)
+A set of Windows-based tools for building, testing, debugging and deploying an application using a single integrated environment.
+
+Immediate window
+One of the program state windows used during debugging for real-time evaluation of variables and expressions within the Command window.
+
+inheritance
+The capability of one class to inherit the members of its parent class or classes.
+
+INSERT statement
+The T-SQL statement used to insert one or more records into a table within a database.
+
+Integrated development environment
+
+See [IDE]
+internal modifier
+A class member with an internal modifier is accessible to all classes within the current project.
+
+Invalidate method
+A method used to invalidate a specified region and trigger a Paint event.
+
+Invariant culture
+A special culture that can be used to interact directly with system services.
+
+IsInRole method
+Method that enables you to test the role membership of the current user.
+
+KeyPress event
+Event that can be used to intercept user keyboard input characters for validation testing.
+
+Kill method
+Method that terminates a local process immediately without saving data or performing resource cleanup.
+
+Label control
+A control that displays read-only data to the user.
+
+Launch Conditions Editor
+A deployment editor used to specify conditions that must be met before package installation can begin.
+
+LinkLabel control
+A control that provides read-only data with a hyperlink capability.
+
+ListBox control
+A control used to allow selection of one or multiple values from a list of options.
+
+listener
+Classes derived from the TraceListener class that handle the reporting of data provided by the Trace and Debug classes.
+
+ListView control
+A control that provides navigation through a series of values, including icons, names, and associated text.
+
+localizability
+The phase in the localization process in which checks are made to ensure that localization will not require design changes for different cultures.
+
+localization
+The process of customizing an application to support different locales through culture-specific settings.
+
+Locals window
+One of the program state windows used during debugging to show all of the variables that are local to the current method being executed.
+
+Location property
+A control property used to specify the absolute location of the upper-left corner of a control.
+
+logo programs
+Program in which Microsoft allows developers to include a logo reflecting the degree to which a new application conforms to the guidelines for Windows development if all of the requirements for the particular program are met.
+
+Lookup
+A view used to transform data into a human-readable form, often by providing a translation between a stored numerical key value and its human-readable text equivalent.
+
+Merge Module
+A package used to deploy redistributable packages that include shared components and assemblies.
+
+mirroring
+Changing control layout and text input direction to accommodate cultures that read and write from right to left.
+
+MonthCalendar control
+A control that allows selection of a date using a calendar-formatted display.
+
+namespace
+A logical naming scheme for grouping related classes. The .NET Framework uses a hierarchical naming scheme for grouping classes into logical categories of related functionality, for example System.Windows is a namespace for grouping classes related to Windows-based applications and System.Data is a namespace for grouping data manipulation classes.
+
+.NET Framework
+A platform for building, deploying, and running XML Web services and applications. The .NET Framework consists of three main parts: the CLR, the FCLs, and a set of language compilers.
+
+NumericUpDown control
+A control that returns a numeric value, navigated using up and down buttons on the control.
+
+one-way data binding
+Binding form in which changes to the underlying data are reflected in the user interface, but changes to data within the user interface are not propagated back to the data model.
+
+OpenFileDialog dialog box
+A dialog box used to browse for a particular file.
+
+PageSettings class
+Class used to manipulate settings that involve the size and layout of a printed page.
+
+PageSetupDialog dialog box
+A dialog box that allows a user to select page layout settings.
+
+panel control
+A container control that includes basic scrolling capability.
+
+Pen class
+A class used with the Draw method to draw lines and curves.
+
+PerformanceCounter class
+Class that provides access to performance data about running processes, as well as the publication of performance data over a network.
+
+permission sets
+Contain one or more permissions that are assigned as a unit.
+
+permissions
+Grant or deny access to a resource.
+
+PictureBox control
+A control used to display graphical images, including icon (.ico), bitmap (.bmp), metafile (.wmf), JPEG/JPG, PNG, and GIF files.
+
+PInvoke (Platform Invoke)
+Platform Invocation, used to call functions from unmanaged Windows API libraries.
+
+Platform Invoke
+
+See [PInvoke]
+pop-up help
+Help that enables a user to click the Help button and then a target control to display help information for that control.
+
+PrincipalPermission class
+Class that can be used to determine the group membership of the current user.
+
+Print method
+Method of a PrintDocument object that fires its PrintPage event, sending data output to the target device.
+
+PrintDialog dialog box
+A dialog box used to select print options and submit a print job to the selected printer.
+
+PrintDocument class
+Class that provides support for printed output.
+
+PrinterSettngs class
+Class used to access and manipulate properties of the target printer.
+
+PrintPage event
+An event that fires once for each page to be printed.
+
+PrintPageEventArgs class
+Class used to expose properties of the printed page, such as its margins.
+
+PrintPreviewControl control
+A control that includes the basic functionality to enable a user to preview a document within the application before printing.
+
+PrintPreviewDialog dialog box
+A dialog box that allows viewing of printed output before it submits the job to the printer.
+
+private member
+A class member accessible only to its containing type.
+
+Process class
+Class that provides information about processes running on a system, local or remote, and that also allows control over starting and stopping processes on the local system.
+
+ProgressBar control
+A control used to display progress across a scaled bar.
+
+protected member
+A class member accessible to the containing type and all classes derived from the containing type.
+
+public member
+A globally accessible member of a class.
+
+Publisher
+The class that informs the occurrence of an event to its subscribers.
+
+QueryPageSettings event
+Occurs immediately before each PrintPage event of a print job.
+
+RadioButton control
+An extension of the CheckBox control, allowing a group of check boxes to be used to select a single value from the group of check boxes.
+
+record
+A single line of data within a table, containing one or more elements (or fields).
+
+Registry Editor
+A deployment editor used to specify Registry keys, subkeys, and values that will be registered to the target computer's Registry during package installation.
+
+regression testing
+Retesting using all previous tests after a change or addition to existing code.
+
+relational database
+Database that stores related data grouped into tables, related by primary key/foreign key relationships.
+
+resource file
+A storage location for culture-specific localized resources, such as strings and bitmap images.
+
+RichTextBox control
+A control that allows single-line or multiline textual input, including support for Rich Text Format (.rtf) input.
+
+role-based security
+Security that manages the logon account's access rather than the application code itself, allowing control of application access based on user or group membership.
+
+sampling
+The process of reading the value of a performance counter.
+
+satellite assembly
+Assembly used to include resource files within an assembly, such as those used for a particular localized culture.
+
+SaveFileDialog dialog box
+A dialog box that enables the user to browse for the location and specify the name to be used when saving a file.
+
+SELECT INTO statement
+A special form of the SELECT statement used to create a new table from the data resulting from the SELECT statement.
+
+SELECT statement
+The T-SQL statement used to retrieve data from one or more tables within a database.
+
+Show method
+A method used to display a Graphics object.
+
+simple data binding
+The connection of a single data value to a single property of a control.
+
+SOAP (Simple Object Access Protocol)
+SOAP is an XML-compliant protocol for exchanging structured and type information via the Internet, typically over HTTP. SOAP is the primary protocol used for communication between Web services and Web service clients.
+
+stored procedure
+A precompiled collection of Transact-SQL statements stored under a name and processed as a unit. SQL Server supplies stored procedures for managing SQL Server and displaying information about databases and users.
+
+stream
+A flow of raw data.
+
+StreamReader class
+A class within the System.IO namespace that implements a TextReader for reading characters from a byte stream in a particular encoding.
+
+StreamWriter class
+A class within the System.IO namespace that implements a TextWriter for writing characters into a byte stream in a particular encoding.
+
+string indexing
+Parsing an input string character by character for validation, taking into account the fact that some characters are 16-bit and others are 32-bit.
+
+strong name
+A name that consists of an assembly's identity—its name, version, and culture, as well as a unique digital signature generated over the assembly. Assemblies with the same strong name are expected to be identical.
+
+stub
+A replacement code segment that automatically returns the correct response when called by the module being tested. Stubs are mostly used in the case when the actual code is not yet available.
+
+Subscriber
+A class that receives notification about an event from an event publisher class.
+
+System.Drawing namespace
+Namespace that includes classes used in creating graphical elements.
+
+System.IO namespace
+Namespace used to access file-based data storage.
+
+System.Xml namespace
+Namespace used to access and manipulate XML data files.
+
+TabControl control
+A container control that allows the grouping of controls within tabbed pages for rapid navigation.
+
+TabIndex
+The order in which a control receives focus when a user tabs through the controls on a form.
+
+table of contents
+Element supported by HTML Help that helps users rapidly identify and navigate to a desired topic.
+
+TabStop property
+A control property used to specify whether the control can receive focus as a user tabs through controls on a form.
+
+testing
+Application testing must be performed to ensure that an application is capable of proper function, even if presented with invalid or conflicting data, and as a simple measure of base functionality within the expected operational environment.
+
+TextBox control
+A control that allows single-line or multiline textual input, including the capability to mask passwords using a default character such as the asterisk (*).
+
+this window
+One of the program state windows used during debugging to show all of the members associated with the current object.
+
+Throw method
+Method used to explicitly raise an exception, allowing the use of custom error-handling code.
+
+Timer control
+A control used to fire an event after a specific interval of time.
+
+tlbimp.exe
+The Type Library Importer (tlbimp.exe), a command-line utility used to import the metadata of a COM component for use within a .NET application.
+
+toolbar
+A component used to provide access to clickable tool buttons, typically docked along the top edge of an application.
+
+ToolTip
+A component that extends the properties of other controls on a form to allow the display of mouseover ToolTip text.
+
+top-down testing
+A testing approach that involves testing overall functionality using code stubs for modules not yet developed. After root-level functionality is verified, testing extends down to the unit level.
+
+topic files
+HTML Help files that are designed to assist the user in a particular situation. Each situation has its own topic file.
+
+trace
+One of the symbol sets used during diagnostics, included when an application is compiled in Debug or Release modes.
+
+TrackBar control
+A control used to select a value from a range by sliding the scrollbar across a displayed scale.
+
+Transact-SQL
+
+See [T-SQL]
+transforming
+Translating machine-stored information within the data model to a more human-readable form.
+
+TreeView control
+A control that allows navigation and selection within a hierarchical node structure.
+
+Try block
+Block that is used in conjunction with one or more Catch blocks for error handling within the defined region of code.
+
+T-SQL
+Microsoft's implementation of the Structured Query Language (SQL standard), also referred to as Transact-SQL.
+
+two-way data binding
+Binding form in which changes to the data in the data model are reflected in the user interface, and changes to data within the user interface are reflected back to the data model.
+
+Type Library Importer
+
+See [tlbimp.exe]
+UDDI (Universal Description, Discovery, and Integration)
+Provides a method for locating Web services through the use of a central searchable directory.
+
+umbrella testing
+A testing approach that focuses on testing user interface modules prior to the business logic modules.
+
+Unicode
+The default encoding used by .NET applications that uses a 2-byte (16-bit) character set to handle roughly 65,000 characters from the world's most common languages.
+
+Universal Description, Discovery, and Integration (UDDI)
+
+See [UDDI]
+UPDATE statement
+The T-SQL statement used to update the values of one or more records of a table within a database.
+
+URL remoting
+A zero-touch deployment method that allows the installation of an application simply by navigating to the proper URL for the application's executable (.exe) file within Internet Explorer.
+
+user assistance
+The process of providing help within an application.
+
+User Interface Editor
+A deployment editor used to specify dialog boxes that will be displayed during the start, progress, and end stages of an installation.
+
+UserControl control
+Composite controls derived from the UserControl class, which can include one or more standard user interface controls as well as defined business logic.
+
+validation
+The process of ensuring that input values are valid and that all required values are present before performing a procedure on the input data.
+
+view
+A filtered set of data derived from one or more tables within a database.
+
+visual inheritance
+The process of inheriting visual user interface members from a parent class.
+
+VscrollBar control
+A control that provides vertical scrolling capability.
+
+Watch window
+One of the program state windows used during debugging to monitor the value of a particular associated variable.
+
+WebMethod attribute
+The attribute used in an .asmx file to expose a method provided by a Web service.
+
+WebService attribute
+The attribute used in an .asmx file to describe and specify a namespace for a Web service.
+
+Web Services
+Allow objects to interact even when located on systems in widely distributed networks connected only by the Internet.
+
+Web Services Description Language (WSDL)
+
+See [WSDL]
+Web Services Description Language tool (wsdl.exe)
+A command-line tool that can use a WSDL file to create a proxy class that can be used to access the web service.
+
+Web Services Discovery Tool
+A command-line tool used to discover and make available a Web service.
+
+Windows API
+Can be used to access inherent functionality provided by the Windows environment.
+
+Windows Forms ActiveX Control Importer
+
+See [aximp.exe]
+WindowsIdentity object
+Object that represents the current user running the code and includes information such as the username and authentication method.
+
+WindowsPrincipal object
+Object that adds functionality to the WindowsIdentity object, representing the entire security context of the user running the code, including the roles to which that user belongs.
+
+wrapper
+A software container component that encapsulates legacy components to provide a translation interface between the .NET Framework and the component's requirements for an interface.
+
+WriteEntry method
+Method that writes an entry to an event log.
+
+WSDL
+Provides details on the SOAP messages that a Web service can send and receive.
+
+XCOPY
+A Windows command-line utility that can be used to copy files from one location to another.
+
+XML
+A text-based human-readable format that provides a uniform method for describing and exchanging structured data that is independent of applications or vendors. Also referred to as the Extensible Markup Language.
+
+Z-order
+A property that specifies the relative positioning of a control in a stack of overlapping controls. Each control has a unique z-order position
