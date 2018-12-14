@@ -1,0 +1,422 @@
+ASP.NET Glossary
+A
+Accessor
+The code that is enclosed in a get and set block in a property definition. The get accessor is executed when the property value is read, and the set accessor is executed when a value is assigned to the property. A property can contain a get accessor, a set accessor, or both.
+
+Accessibility
+The process of making an application more readily available to users who might have disabilities that interfere with their use of computer hardware or software.
+
+Ad hoc query
+A set of SQL statements that are executed immediately.
+
+Application domain (AppDomain)
+A secure, versatile, and isolated environment created by the CLR to execute an application.
+
+Application state
+A global storage mechanism accessible from all pages in a Web application. Application state is useful for storing information that needs to be maintained between server roundtrips and that needs to be shared by all the users.
+
+ASP.NET
+A subset of the .NET Framework that enables you to develop Web applications and Web services. As part of the .NET Framework, it enjoys all the advantages offered by the .NET Framework.
+
+ASP.NET application
+A collection of Web forms, assemblies, and other files stored within a virtual Web directory configured as an IIS application.
+
+Assembly
+A logical unit of functionality that can contain one or more files. Every type that is loaded in the CLR belongs to an assembly.
+
+Assembly manifest
+An integral part of an assembly that stores the assembly's metadata.
+
+See Also Assembly metadata.
+
+Assembly metadata
+A collection of information about the assembly that makes an assembly self-describing. Assembly metadata stores information, such as the name of the assembly, the version of the assembly, the files that are part of the assembly and their hash values, and the assemblies' dependencies on other assemblies.
+
+Attribute
+A declarative tag that can be placed with certain code elements to provide additional information on the corresponding code element at runtime.
+
+Authentication
+The process of determining the identity of a user based on his credentials.
+
+Authorization
+The process of allowing a user to use specific resources based on his authenticated identity.
+
+B
+Backing store
+A place, such as memory and hard disk, where you can store files.
+
+Boxing
+The process of converting a value type to a reference type in which the value in the stack is copied into the heap via the creation of a new instance of an object to hold its data.
+
+C
+Caching
+Caching refers to storing information for later retrieval, rather than regenerating it every time it's requested.
+
+CDATA section
+Raw data within an XML file.
+
+Class
+A reference type that encapsulates data (constants and fields) and behavior (methods, properties, indexers, events, operators, instance constructors, static constructors, and destructors). A class is a blueprint from which objects are created.
+
+CLR (Common Language Runtime)
+A program that executes all managed code and provides code with various services at runtime, such as automatic memory management, cross-language integration, code access security, and debugging and profiling support.
+
+Column
+All the values for one particular property in a table.
+
+Complex Data Binding
+Complex data binding means connecting a user interface control to an entire collection of data, rather than to a single data item.
+
+Component
+A package of reusable code that implements the IComponent interface.
+
+Configuration file
+ASP.NET configuration files are XML files that ASP.NET reads at runtime to determine configuration options.
+
+Constructor
+A method that allows control over initialization of a type. A constructor is executed when an instance of a type is created.
+
+Cookies
+A mechanism for storing small pieces of information at the client side. A cookie is associated with a specific domain and is sent along with each request to the associated Web server.
+
+CSS (Cascading Style Sheets)
+A collection of styles that can be applied to elements in an HTML document. The CSS styles define how the HTML elements are rendered in the Web browser.
+
+Culture
+A combination of language and location that is sufficient to dictate the formatting of resources.
+
+Culture code
+An abbreviation that identifies a particular culture.
+
+D
+Data Binding
+The process of connecting the controls on the user interface with the data stored in the data model.
+
+Data provider
+The server-specific ADO.NET classes that supply data.
+
+DataSet
+A server-independent store that can hold multiple tables and their relationships.
+
+Debugging
+The process of locating logical or runtime errors in an application. Debugging involves finding the causes of the errors and fixing them.
+
+Delay Signing
+A technique that allows a shared assembly to be placed in the GAC by just signing the assembly with the public key. This allows the assembly to be signed with a private key at a later stage when the development process is complete and the component or assembly is ready to be deployed. This process allows developers to work with shared assemblies as if they are strongly named, and yet also secure the private key of the signature from being accessed at different stages of development.
+
+Delegate
+A reference type that stores references to a method with a specific signature. A delegate object can be used to dynamically invoke a method at runtime.
+
+Deployment
+A process by which a application or component is distributed to be installed on the other computers.
+
+Derived control
+A control that inherits directly from a specific server control such as the TextBox or Label control.
+
+Disco
+A Microsoft standard for Web service discovery.
+
+DOM (Document Object Model)
+The DOM class is an in-memory representation of an XML document that allows you to programmatically read, manipulate, and modify an XML document.
+
+E
+Encoding
+A scheme for representing textual characters as numeric codes.
+
+Enumeration
+A distinct type that has named constants. Enumeration types are defined by using the enum keyword. Enumeration types provide a type-safe way to work with constants.
+
+Event
+A message sent by an object to signal an action. The action can be a result of user interaction, such as a mouse click, or it can be triggered by any other program.
+
+Event handling
+The act of responding to an event. Event handling can be accomplished by writing methods called event handlers that are invoked in response to events.
+
+Exception
+A problem that occurred during the normal execution of a program.
+
+Exception handling
+The process of handling exceptions that are raised when the program executes. You can choose to ignore an exception or respond to it by running your own code.
+
+F
+Field
+A variable that is associated with an object or a class.
+
+FCL (Framework Class Library)
+A library of classes, interfaces, and value types that are included in the Microsoft .NET Framework. This library provides access to the system functionality and is the foundation on which the .NET Framework applications, components, and controls are built.
+
+Foreign Key
+An identifier in a database table that stores values from the primary key in another table. These values indicate to which row in the primary table each row in the other table is related.
+
+G
+GAC (global assembly cache)
+A machine-wide code cache that stores assemblies that are supposed to be shared by many applications running on that machine.
+
+Garbage collection
+A process of reclaiming all unused memory and returning it to the heap of available memory. The CLR garbage collector might be invoked when an application gets low on memory resources. The CLR also compacts the memory that is in use to reduce the working space needed for the heap.
+
+Globalization
+The process of identifying the resources to be localized in a particular application.
+
+H
+Hidden fields
+Input controls that are not visible on the page but are posted to the server along with a page postback.
+
+HTML controls
+HTML elements that are used for client-side rendering and are not directly accessible on the Web server.
+
+HTML server controls
+HTML elements marked with the runat="server" attribute in order to make them accessible on the Web server.
+
+I
+Identity column
+A column whose value is automatically assigned by the server when a new row is entered.
+
+IL (intermediate language)
+The language into which compilers that support the .NET Framework compile a program. The ECMA ratified IL standard is called the common intermediate language (CIL). The Microsoft implementation of CIL is called Microsoft IL (MSIL).
+
+Impersonation
+ASP.NET uses impersonation to make requests for resources as if those requests were made by the authenticated user.
+
+Inheritance
+A process through which you create a new type based on an existing type. In an inheritance relationship, the existing type is called the base type and the new type is called the derived type. When you use inheritance, the derived type automatically gets all the functionality of the base type—without any extra coding.
+
+Input validation
+A process by which an application examines user input to determine whether it is acceptable for the application.
+
+J
+JIT (just-in-time) compilation
+The process of converting IL code into machine code at runtime, just when it is required.
+
+K–L
+“Last one wins” concurrency control
+A situation in which an update to a row always succeeds, whether another user has edited the row or not (as long as the row still exists).
+
+Localizability
+The process of verifying that all localizable resources have been separated from code.
+
+Localization
+The process of translating resources for another culture.
+
+M
+Managed code
+The code that runs under the services provided by the CLR. Managed code must expose necessary metadata information to the CLR in order to enjoy these services.
+
+See Also CLR (Common Language Runtime).
+
+Merge module
+A merge module allows you to create reusable components that help in deploying shared components. Merge modules cannot be directly installed. They need to be merged with installers of applications that use the shared component packed into a merge module.
+
+Metadata
+Information about elements—such as assembly, type, methods, and so on—that helps the CLR manage garbage collection, object lifetime management, code access security, debugging, and other services for these elements.
+
+N
+Namespace
+A naming scheme that provides a way to logically group related types. Namespaces have two benefits: They are used to avoid naming conflicts, and they make it easier to browse and locate classes.
+
+Native Compilation
+The process of precompiling assemblies in processor-specific machine code. Native compilation can be done with the help of the Native Image Generation tool (ngen.exe).
+
+Native Image Cache
+A cache that contains precompiled assemblies.
+
+.NET Framework
+A platform for building, deploying, and running distributed applications and XML Web services. The .NET Framework consists of three main parts: the CLR, the FCLs, and a set of language compilers.
+
+O
+One-way data binding
+A process in which the bound property of the control reflects changes to the data model, but changes to the control are not written back to the data model.
+
+Optimistic concurrency control
+A situtation in which an update to a row succeeds only if no one else has changed that row after it is loaded into the DataSet object.
+
+OSQL
+A SQL Server command-line tool for executing queries.
+
+P
+Parameter
+A piece of information that is passed to a stored procedure at runtime.
+
+Performance Counter
+A Windows device that publishes performance-related data for applications and their components.
+
+Platform invoke
+The feature of the .NET Framework that allows you to call Windows API and other DLL procedures from managed code.
+
+Postback
+A postback occurs when the user submits a Web form to the server.
+
+Primary Key
+The unique identifier for a row in a database table.
+
+Private assembly
+An assembly available only to clients in the same directory structure as the assembly.
+
+Process
+An application under execution.
+
+Property
+A class member that is like a public field but that can also encapsulate additional logic within its get and set accessor methods.
+
+Q–R
+Query String
+The data appended to the URL by separating with a question mark (?) symbol. The data attached to the URL is usually a set of key-value pairs, where each key-value pair is separated by an ampersand (&).
+
+Relationship
+A connection between two tables in a database.
+
+Relational database
+A relational database stores multiple tables and the relationships between them.
+
+Resource File
+A file that contains string, bitmap, or other resources that can differ between cultures.
+
+Resource-only assembly
+An assembly that contains only resources and no executable code.
+
+Resultset
+A collection of data that is arranged in rows and columns.
+
+Role-based security
+A security mechanism where access to resources is authorized depending on the authenticated identity of the user running the code.
+
+Roundtrip
+A roundtrip is the combination of a Web page request and a postback operation.
+
+Row
+All the values in a table that describe one instance of an entity.
+
+RCW (runtime callable wrapper)
+A proxy that allows .NET code to make use of COM classes and members.
+
+S
+Satellite assembly
+A resource-only assembly that contains culture-specific information.
+
+Schema
+The structure of a database or XML file.
+
+Session
+A sequence of interaction between a client browser and a Web server. Each session is uniquely identified using a SessionID.
+
+Session state
+Session state information is persisted between individual stateless HTTP requests.
+
+Shared assembly
+A shared assembly can be referenced by more than one application. An assembly must be explicitly built to be shared by giving it a cryptographically strong name. Shared assemblies are stored in the machinewide GAC.
+
+Simple Data Binding
+The process of connecting a single value from the data model to a single property of a control.
+
+SOAP (Simple Object Access Protocol)
+A standard for transmitting objects as XML over HTTP.
+
+SQL Query Analyzer
+A SQL Server graphical tool for executing queries.
+
+SQL-92 (Structured Query Language-92)
+The official ANSI specification for Structured Query Language.
+
+Stored procedure
+A set of SQL statements that are stored on the server for later execution.
+
+Stream
+A file viewed as a stream of bytes.
+
+Strong name
+A name that identifies an assembly globally. It consists of a simple text name, a version number, culture information (if provided), a public key, and is optionally signed using a digital signature. If the assembly contains more than one file, it is sufficient to generate a strong name just for the file that contains the assembly manifest.
+
+Structure
+A user-defined value type. Like a class, a structure has constructors, fields, methods, properties, and so on. However, structures do not support inheritance.
+
+T
+Tab order
+The order in which controls receive focus when users navigate on a form by using the Tab key.
+
+Table
+A collection of data about instances of a single entity.
+
+Templated Control
+A control whose display is entirely dictated by templates.
+
+Testing
+The process of executing programs and determining whether they worked as expected. Testing is the process of revealing errors by executing programs with various test cases and test data.
+
+ToolTip
+A small pop-up window that displays a brief description of a control's purpose when the mouse hovers over the control.
+
+Tracing
+The process of displaying informative messages in an application at the time of execution. Tracing messages can be helpful in checking the health of the program or finding out errors even though the program is already in production.
+
+T-SQL (Transact Structured Query Language)
+The SQL-92 dialect used in Microsoft SQL Server.
+
+Two-way data binding
+A process in which changes to the control are written back to the data model.
+
+U
+UDDI (Universal Description, Discovery, and Integration)
+A standard for discovering details of Web services and other business services available via the Internet.
+
+Unboxing
+The process of converting a reference type to a value type in which the value from the heap is copied back into the stack.
+
+Unhandled Exceptions
+Exceptions that are not handled within a try-catch block of the program.
+
+Unicode
+A universal character set that can represent more than a million characters. Unicode is the default internal language of the .NET Framework.
+
+Unmanaged code
+Code written in a non-.NET environment that does not benefit from the services of the CLR.
+
+User assistance
+Any means of providing information about an application to the user.
+
+UTF-16
+A 16-bit Unicode encoding format where every character is encoded using two bytes.
+
+V
+View State
+A mechanism used by ASP.NET to maintain the state of controls across page postbacks. View state works only when a page is posted back to itself.
+
+W
+Web custom control
+A control that inherits from the WebControl class. Web custom controls can be compiled, and they support advanced features in Visual Studio .NET.
+
+Web Forms Designer
+The rich visual environment provided by Visual Studio .NET that allows you to create Web applications.
+
+Web method
+A method of a Web service that can be invoked by client applications.
+
+Web reference
+Information in a Visual Studio .NET project that allows you to use objects supplied by a Web service.
+
+Web server controls (ASP.NET server controls)
+A collection of controls that provides varied functionality and a consistent programming model.
+
+Web service
+A Web service allows you to instantiate and invoke objects over the Internet.
+
+Web user control
+A composite control implemented as an ASCX file with an associated CS file.
+
+WSDL (Web Services Description Language)
+An XML language that describes the interface of a Web service.
+
+X–Z
+XML (Extensible Markup Language)
+XML is a text-based format that lets developers describe, deliver, and exchange structured data between a range of applications.
+
+XML attribute
+A property of an XML object.
+
+XML declaration
+The line in an XML file that identifies the file as XML.
+
+XML element
+An XML tag together with its contents.
+
+XML namespace
+A set of XML tags that is private to an application.
